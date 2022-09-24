@@ -1,0 +1,395 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* .wrapFirstPage {
+  height: 100%;
+} */
+
+.wrapFirstPage .top {
+  width: 100%;
+  height: 100vh;
+  padding: 40px;
+  color: #fff;
+}
+
+.top .landingPage {
+  width: 100%;
+  height: 100%;
+  background: url(images/P1040268.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.top .headerMenu {
+  padding: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top .headerMenu p {
+  font-weight: bold;
+}
+
+.top .headerMenu li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.top .headerMenu li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+  font-size: 1.2em;
+}
+
+.top .headerMenu li a:hover {
+  font-weight: bold;
+}
+
+.top .content .mainTitle {
+  position: absolute;
+  width: 70%;
+  bottom: 30%;
+  left: 5%;
+}
+
+.top .content .mainTitle p {
+  font-size: 4.5em;
+  font-weight: bold;
+}
+
+.top .content .mainOptions {
+  position: absolute;
+  right: 5%;
+  bottom: 20%;
+  width: 30%;
+}
+
+.top .content .mainOptions li {
+  list-style: none;
+  text-align: right;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.top .content .mainOptions li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+  margin-right: 1rem;
+  transition: 0.3s;
+}
+
+.top .content .mainOptions li a:hover {
+  margin-right: 1.5rem;
+  font-weight: bold;
+}
+
+.topToMid {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.topToMid p.quote {
+  width: 80%;
+  font-size: 2.5em;
+  font-style: italic;
+}
+
+.topToMid p.byWho {
+  margin-top: 2%;
+  font-size: 2.5em;
+  left: 0%;
+}
+
+.mid {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mid .card {
+  width: 100%;
+  height: 50%;
+}
+
+.mid .card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mid .midTop .img {
+  background: url(images/P1040360.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+.mid .midMid .img {
+  background: url(images/P1030805.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+.mid .midBot .img {
+  background: url(images/P1040295.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}
+
+.mid .card .blokExplan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: end;
+  width: 50%;
+  position: relative;
+}
+
+.mid .midMid .blokExplan {
+  text-align: start;
+}
+
+.mid .midMid .blokExplan {
+  align-items: flex-start;
+}
+
+.mid .card .blokExplan p.title {
+  font-size: 3.5em;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+}
+
+.mid .card .blokExplan p.txtExplan {
+  font-size: 1.3em;
+}
+
+.mid .card .blokExplan a {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 20%;
+  display: inline-block;
+  width: 30%;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #000;
+  color: #000;
+  font-size: 1.2em;
+  transition: 0.3s;
+}
+
+.mid .card .blokExplan a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.bot {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.bot .shop {
+  width: 100%;
+  height: 100%;
+  background: url(images/P1030395.00_01_42_03.Still003.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bot .shop p {
+  font-weight: bold;
+  font-size: 3em;
+  color: #fff;
+}
+
+.midToBot {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.midToBot p.quote {
+  width: 80%;
+  font-size: 2.5em;
+  font-style: italic;
+}
+
+.midToBot p.byWho {
+  margin-top: 2%;
+  font-size: 2.5em;
+  left: 0%;
+}
+
+.botFoot {
+  padding-top: 5%;
+  width: 100%;
+  height: 50vh;
+  background: #000;
+  color: #fff;
+}
+
+.wrapAll {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapAll .side {
+  width: 33%;
+  text-align: center;
+}
+
+.wrapAll .side p {
+  font-size: 1.3em;
+  margin-bottom: 7%;
+}
+
+.wrapAll .side p.standard {
+  font-size: 1em;
+}
+
+.wrapAll .leftSide li {
+  list-style: none;
+  transition: 0.2s;
+  margin: 1%;
+}
+
+.wrapAll .leftSide li a {
+  text-decoration: none;
+  color: #fff;
+  width: fit-content;
+}
+
+.wrapAll .leftSide li a:hover {
+  font-weight: bold;
+}
+
+.wrapAll .midSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapAll .midSide p {
+  font-size: 2em;
+}
+
+.wrapAll .rightSide ul li {
+  display: inline-block;
+  margin: 1%;
+}
+
+.wrapAll .rightSide ul li img:hover {
+  transform: scale(1.2);
+}
+
+li a img {
+  width: 1.5rem;
+  filter: brightness(0) invert(1);
+  transition: 0.2s;
+}
+
+/* ABOUT PAGE CSS */
+.wrapAboutPage {
+  width: 100%;
+  position: absolute;
+}
+
+.wrapAboutPage .top {
+  width: 100%;
+  height: 70vh;
+  color: #fff;
+}
+
+.wrapAboutPage .landingAbout {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(images/P1040295.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapAboutPage .title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+.wrapAboutPage .midAbout {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 10%;
+}
+
+.wrapAboutPage .midAbout .leftText {
+  width: 45%;
+  height: 100%;
+  padding-left: 5%;
+}
+
+.wrapAboutPage .midAbout .leftText p {
+  font-size: 1.1em;
+  line-height: 1.8rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.wrapAboutPage .midAbout .rightImage {
+  width: 48%;
+  height: 100%;
+}
+
+.wrapAboutPage .midAbout .rightImage img {
+  width: 80%;
+}
+
+.aboutFoot {
+  padding-top: 5%;
+  width: 100%;
+  height: 50vh;
+  background: #000;
+  color: #fff;
+}
