@@ -12,6 +12,10 @@ body {
   height: 100%;
 } */
 
+.leftBurger {
+  display: none;
+}
+
 .wrapFirstPage .top {
   width: 100%;
   height: 100vh;
@@ -327,69 +331,108 @@ li a img {
   transition: 0.2s;
 }
 
-/* ABOUT PAGE CSS */
-.wrapAboutPage {
-  width: 100%;
-  position: absolute;
+/* moving object */
+
+.move {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(50%);
+  transition: all 1s;
 }
 
-.wrapAboutPage .top {
-  width: 100%;
-  height: 70vh;
-  color: #fff;
+.show {
+  filter: blur(0);
+  transform: translateY(0);
+  opacity: 1;
 }
 
-.wrapAboutPage .landingAbout {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: url(images/P1040295.jpg);
-  background-position: center;
-  background-size: cover;
-}
+@media (max-width: 567px) {
+  .top .headerMenu li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 0.5em;
+  }
 
-.wrapAboutPage .title {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 40%;
-  font-size: 3em;
-  font-weight: bold;
-  text-align: center;
-}
-.wrapAboutPage .midAbout {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: space-between;
-  padding: 5% 10%;
-}
+  .top .content .mainOptions {
+    width: 80%;
+  }
 
-.wrapAboutPage .midAbout .leftText {
-  width: 45%;
-  height: 100%;
-  padding-left: 5%;
-}
+  .top .content .mainOptions li a {
+    font-size: 1em;
+  }
 
-.wrapAboutPage .midAbout .leftText p {
-  font-size: 1.1em;
-  line-height: 1.8rem;
-  font-family: "Times New Roman", Times, serif;
-}
+  .top .headerMenu {
+    padding: 5%;
+  }
+  .wrapFirstPage .top {
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    color: #fff;
+  }
+  .top .headerMenu p {
+    font-size: 1em;
+  }
+  .landingPage .content .mainTitle {
+    top: 40%;
+    width: 80%;
+  }
 
-.wrapAboutPage .midAbout .rightImage {
-  width: 48%;
-  height: 100%;
-}
+  .landingPage .content .mainOptions a {
+    font-size: 0.5em;
+  }
+  .landingPage .content .mainTitle p.move {
+    font-size: 2em;
+  }
 
-.wrapAboutPage .midAbout .rightImage img {
-  width: 80%;
-}
+  .landingPage .headerMenu ul {
+    display: none;
+  }
 
-.aboutFoot {
-  padding-top: 5%;
-  width: 100%;
-  height: 50vh;
-  background: #000;
-  color: #fff;
+  .landingPage .bgTrans {
+    display: flex;
+    padding: 0.3rem;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    transition: 0.2s;
+  }
+
+  .landingPage .bgTrans:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  }
+
+  .leftBurger {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+  }
+
+  .leftBurger ul {
+    width: 100%;
+  }
+
+  .leftBurger ul li {
+    list-style: none;
+  }
+
+  .leftBurger ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 0, 0.2rem, 0, 0.2rem;
+  }
+
+  .bgTrans .burger {
+    z-index: 10;
+  }
 }

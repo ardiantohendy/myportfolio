@@ -2,6 +2,30 @@ const firstPage = document.querySelector(".wrapFirstPage");
 const aboutPage = document.querySelector(".wrapAboutPage");
 const listOfOptions = document.querySelectorAll(".headerMenu li a");
 const footerOfOptions = document.querySelectorAll(".headerMenu li a");
+const moveItems = document.querySelectorAll(".move");
+const moveItemsRight = document.querySelectorAll(".moveRight");
+const leftBurger = document.querySelector(".leftBurger");
+const bugerMenu = document.querySelector(".burger");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry);
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }
+  });
+});
+
+bugerMenu.addEventListener("click", function () {
+  if (leftBurger.style.left === "-100%") {
+    leftBurger.style.left = "0";
+  } else {
+    leftBurger.style.left = "-100%";
+  }
+});
+
+moveItems.forEach((el) => observer.observe(el));
+moveItemsRight.forEach((eli) => observer.observe(eli));
 
 // for (let i = 0; i < listOfOptions.length; i++) {
 //   listOfOptions[i].addEventListener("click", function () {

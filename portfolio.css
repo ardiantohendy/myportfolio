@@ -1,0 +1,363 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.wrapPortfolioPage {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.top .headerMenu {
+  padding: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top .headerMenu p {
+  font-weight: bold;
+}
+
+.top .headerMenu li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.top .headerMenu li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+  font-size: 1.2em;
+}
+
+.top .headerMenu li a:hover {
+  font-weight: bold;
+}
+
+.wrapPortfolioPage .top {
+  width: 100%;
+  height: 70vh;
+  color: #fff;
+}
+
+.wrapPortfolioPage .landingPort {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(images/landingport.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapPortfolioPage .title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapPortfolioPage .mid {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+}
+
+.mid .leftBox,
+.mid .rightBox {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.mid .move {
+  width: 100%;
+  height: 45vh;
+}
+
+.mid .leftBox .move {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mid .rightBox .move {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mid .leftBox .firstItem .img {
+  background: url(images/P1040268.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 95%;
+}
+
+.mid .leftBox .secondItem .img {
+  background: url(images/P1040363.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 95%;
+}
+
+.mid .leftBox .thirdItem .img {
+  background: url(images/new-2.JPG);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 95%;
+}
+
+.mid .rightBox .firstItem .img {
+  background: url(images/P1040134.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 95%;
+}
+
+.mid .rightBox .secondItem .img {
+  background: url(images/P1040360.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 95%;
+}
+
+.mid .leftBox .move .text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5%;
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.mid .rightBox .move .text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5%;
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.mid .leftBox .move .text p.titleInCard {
+  font-size: 1.8em;
+  font-weight: bold;
+  position: absolute;
+  top: 17%;
+}
+
+.mid .rightBox .move .text p.titleInCard {
+  font-size: 1.8em;
+  font-weight: bold;
+  position: absolute;
+  top: 17%;
+}
+
+.mid .leftBox .move .text a {
+  display: inline-block;
+  width: 40%;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #000;
+  position: absolute;
+  bottom: 15%;
+  transition: 0.3s;
+}
+
+.mid .rightBox .move .text a {
+  display: inline-block;
+  width: 40%;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #000;
+  position: absolute;
+  bottom: 15%;
+  transition: 0.3s;
+}
+
+.mid .leftBox .move .text a:hover {
+  color: #fff;
+  background: #000;
+}
+
+.mid .rightBox .move .text a:hover {
+  color: #fff;
+  background: #000;
+}
+
+.portFoot {
+  padding-top: 5%;
+  width: 100%;
+  height: 50vh;
+  background: #000;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapAll {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapAll .side {
+  width: 33%;
+  text-align: center;
+}
+
+.wrapAll .side p {
+  font-size: 1.3em;
+  margin-bottom: 7%;
+}
+
+.wrapAll .side p.standard {
+  font-size: 1em;
+}
+
+.wrapAll .leftSide li {
+  list-style: none;
+  transition: 0.2s;
+  margin: 1%;
+}
+
+.wrapAll .leftSide li a {
+  text-decoration: none;
+  color: #fff;
+  width: fit-content;
+}
+
+.wrapAll .leftSide li a:hover {
+  font-weight: bold;
+}
+
+.wrapAll .midSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapAll .midSide p {
+  font-size: 2em;
+}
+
+.wrapAll .rightSide ul li {
+  display: inline-block;
+  margin: 1%;
+}
+
+.wrapAll .rightSide ul li img:hover {
+  transform: scale(1.2);
+}
+
+li a img {
+  width: 1.5rem;
+  filter: brightness(0) invert(1);
+  transition: 0.2s;
+}
+/* 
+.portFoot {
+  padding-top: 5%;
+  width: 100%;
+  height: 50vh;
+  background: #000;
+  color: #fff;
+}
+
+.portFoot .wrapAll {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portFoot .wrapAll .side {
+  width: 33%;
+  text-align: center;
+}
+
+.portFoot .wrapAll .side p {
+  font-size: 1.3em;
+  margin-bottom: 7%;
+}
+
+.portFoot .wrapAll .side p.standard {
+  font-size: 1em;
+}
+
+.portFoot .wrapAll .leftSide li {
+  list-style: none;
+  transition: 0.2s;
+  margin: 1%;
+}
+
+.portFoot .wrapAll .leftSide li a {
+  text-decoration: none;
+  color: #fff;
+  width: fit-content;
+}
+
+.portFoot .wrapAll .leftSide li a:hover {
+  font-weight: bold;
+}
+
+.portFoot .wrapAll .midSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portFoot .wrapAll .midSide p {
+  font-size: 2em;
+}
+
+.portFoot .wrapAll .rightSide ul li {
+  display: inline-block;
+  margin: 1%;
+}
+
+.portFoot .wrapAll .rightSide ul li img:hover {
+  transform: scale(1.2);
+}
+
+.portFoot li a img {
+  width: 1.5rem;
+  filter: brightness(0) invert(1);
+  transition: 0.2s;
+} */
+
+/* move when scroll */
+
+.move {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(50%);
+  transition: all 1s;
+}
+
+.show {
+  filter: blur(0);
+  transform: translateY(0);
+  opacity: 1;
+}
