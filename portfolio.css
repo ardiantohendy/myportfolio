@@ -42,6 +42,7 @@
   width: 100%;
   height: 70vh;
   color: #fff;
+  padding: 3em;
 }
 
 .wrapPortfolioPage .landingPort {
@@ -58,7 +59,7 @@
   left: 0;
   right: 0;
   top: 40%;
-  font-size: 3em;
+  font-size: 5em;
   font-weight: bold;
   text-align: center;
 }
@@ -67,6 +68,7 @@
   width: 100%;
   height: 150vh;
   display: flex;
+  padding: 0 3em 3em 3em;
 }
 
 .mid .leftBox,
@@ -76,7 +78,6 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 0.5rem;
 }
 
 .mid .move {
@@ -87,7 +88,7 @@
 .mid .leftBox .move {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 .mid .rightBox .move {
@@ -105,7 +106,7 @@
 }
 
 .mid .leftBox .secondItem .img {
-  background: url(images/P1040363.jpg);
+  background: url(images/P1040360.jpg);
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -129,7 +130,7 @@
 }
 
 .mid .rightBox .secondItem .img {
-  background: url(images/P1040360.jpg);
+  background: url(images/everflower/P1090517.JPG);
   background-position: center;
   background-size: cover;
   width: 50%;

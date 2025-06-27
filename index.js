@@ -16,13 +16,13 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
-bugerMenu.addEventListener("click", function () {
-  if (leftBurger.style.left === "-100%") {
-    leftBurger.style.left = "0";
-  } else {
-    leftBurger.style.left = "-100%";
-  }
-});
+// bugerMenu.addEventListener("click", function () {
+//   if (leftBurger.style.left === "-100%") {
+//     leftBurger.style.left = "0";
+//   } else {
+//     leftBurger.style.left = "-100%";
+//   }
+// });
 
 moveItems.forEach((el) => observer.observe(el));
 moveItemsRight.forEach((eli) => observer.observe(eli));
