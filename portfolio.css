@@ -287,74 +287,147 @@ li a img {
   filter: brightness(0) invert(1);
   transition: 0.2s;
 }
-/* 
-.portFoot {
-  padding-top: 5%;
-  width: 100%;
-  height: 50vh;
-  background: #000;
-  color: #fff;
-}
 
-.portFoot .wrapAll {
-  display: flex;
-  justify-content: space-between;
-}
+@media (max-width: 576px) {
+  .wrapPortfolioPage .top .landingPort {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1.5em;
+  }
+  .wrapPortfolioPage .top {
+    padding: 1em;
+  }
 
-.portFoot .wrapAll .side {
-  width: 33%;
-  text-align: center;
-}
+  .wrapPortfolioPage .top {
+    height: 50vh;
+  }
 
-.portFoot .wrapAll .side p {
-  font-size: 1.3em;
-  margin-bottom: 7%;
-}
+  .wrapPortfolioPage .top .headerMenu {
+    padding: 1em;
+  }
 
-.portFoot .wrapAll .side p.standard {
-  font-size: 1em;
-}
+  .wrapPortfolioPage .top .content {
+    height: fit-content;
+  }
 
-.portFoot .wrapAll .leftSide li {
-  list-style: none;
-  transition: 0.2s;
-  margin: 1%;
-}
+  .top .headerMenu p {
+    font-weight: bold;
+    font-size: 0.6em;
+  }
 
-.portFoot .wrapAll .leftSide li a {
-  text-decoration: none;
-  color: #fff;
-  width: fit-content;
-}
+  .top .headerMenu ul li {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
 
-.portFoot .wrapAll .leftSide li a:hover {
-  font-weight: bold;
-}
+  .top .headerMenu ul li a {
+    font-size: 0.6em;
+  }
 
-.portFoot .wrapAll .midSide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .top .landingPort .title p {
+    font-size: 0.6em;
+  }
 
-.portFoot .wrapAll .midSide p {
-  font-size: 2em;
-}
+  .wrapPortfolioPage .mid {
+    flex-direction: column;
+    padding: 0 1em 1em 1em;
+    height: 100%;
+  }
 
-.portFoot .wrapAll .rightSide ul li {
-  display: inline-block;
-  margin: 1%;
-}
+  .wrapPortfolioPage .mid .leftBox {
+    width: 100%;
+  }
 
-.portFoot .wrapAll .rightSide ul li img:hover {
-  transform: scale(1.2);
-}
+  .wrapPortfolioPage .mid .leftBox .show {
+    height: 35vh;
+  }
 
-.portFoot li a img {
-  width: 1.5rem;
-  filter: brightness(0) invert(1);
-  transition: 0.2s;
-} */
+  .wrapPortfolioPage .mid .leftBox .img {
+    height: 80%;
+  }
+
+  .wrapPortfolioPage .mid .leftBox .text {
+    height: 80%;
+  }
+
+  .wrapPortfolioPage .mid .rightBox {
+    width: 100%;
+  }
+
+  .wrapPortfolioPage .mid .rightBox .show {
+    height: 35vh;
+  }
+
+  .wrapPortfolioPage .mid .rightBox .img {
+    height: 80%;
+    order: 1;
+  }
+
+  .wrapPortfolioPage .mid .rightBox .text {
+    height: 80%;
+    order: 2;
+  }
+
+  .wrapPortfolioPage .mid .leftBox .show p.titleInCard {
+    font-size: 0.8em;
+  }
+
+  .wrapPortfolioPage .mid .leftBox .show p.explan {
+    font-size: 0.5em;
+  }
+
+  .wrapPortfolioPage .mid .leftBox .show a {
+    font-size: 0.6em;
+    padding: 0.2em 0.5em;
+  }
+
+  .wrapPortfolioPage .mid .rightBox .show p.titleInCard {
+    font-size: 0.8em;
+  }
+
+  .wrapPortfolioPage .mid .rightBox .show p.explan {
+    font-size: 0.5em;
+  }
+
+  .wrapPortfolioPage .mid .rightBox .show a {
+    font-size: 0.6em;
+    padding: 0.2em 0.5em;
+  }
+
+  .portFoot {
+    padding: 3em;
+    height: fit-content;
+  }
+
+  .portFoot .wrapAll {
+    flex-direction: column;
+  }
+
+  .portFoot .wrapAll .leftSide {
+    width: 100%;
+  }
+
+  .portFoot .wrapAll .leftSide p {
+    margin-bottom: 0.8em;
+  }
+
+  .portFoot .wrapAll .midSide {
+    width: 100%;
+  }
+
+  .portFoot .wrapAll .midSide p {
+    margin: 1.5em 0 1.5em 0;
+  }
+
+  .portFoot .wrapAll .rightSide {
+    width: 100%;
+  }
+
+  .portFoot .wrapAll .rightSide p {
+    margin-bottom: 0.8em;
+  }
+}
 
 /* move when scroll */
 

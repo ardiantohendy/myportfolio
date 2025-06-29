@@ -31,14 +31,10 @@ body {
   height: 100%;
 } */
 
-.leftBurger {
-  display: none;
-}
-
 .wrapFirstPage .top {
   width: 100%;
   height: 100vh;
-  padding: 40px;
+  padding: 3em;
   color: #fff;
 }
 
@@ -54,6 +50,7 @@ body {
 .top .headerMenu {
   padding: 3em;
   width: 100%;
+  height: fit-content;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,13 +80,13 @@ body {
 
 .top .content {
   width: 100%;
-  height: 60%;
-  position: absolute;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 15em;
+  padding-left: 15em;
+  padding-right: 15em;
 }
 
 .top .content p.title {
@@ -250,97 +247,6 @@ li a img {
   opacity: 1;
 }
 
-@media (max-width: 567px) {
-  .top .headerMenu li a {
-    text-decoration: none;
-    color: #fff;
-    transition: 0.3s;
-    font-size: 0.5em;
-  }
-
-  .top .content .mainOptions {
-    width: 80%;
-  }
-
-  .top .content .mainOptions li a {
-    font-size: 1em;
-  }
-
-  .top .headerMenu {
-    padding: 5%;
-  }
-  .wrapFirstPage .top {
-    width: 100%;
-    height: 100vh;
-    padding: 10px;
-    color: #fff;
-  }
-  .top .headerMenu p {
-    font-size: 1em;
-  }
-  .landingPage .content .mainTitle {
-    top: 40%;
-    width: 80%;
-  }
-
-  .landingPage .content .mainOptions a {
-    font-size: 0.5em;
-  }
-  .landingPage .content .mainTitle p.move {
-    font-size: 2em;
-  }
-
-  .landingPage .headerMenu ul {
-    display: none;
-  }
-
-  .landingPage .bgTrans {
-    display: flex;
-    padding: 0.3rem;
-    justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    transition: 0.2s;
-  }
-
-  .landingPage .bgTrans:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-  }
-
-  .leftBurger {
-    position: absolute;
-    left: -100%;
-    top: 0;
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    background-color: #000;
-    transition: 0.3s;
-    display: flex;
-    align-items: center;
-  }
-
-  .leftBurger ul {
-    width: 100%;
-  }
-
-  .leftBurger ul li {
-    list-style: none;
-  }
-
-  .leftBurger ul li a {
-    color: #fff;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
-    margin: 0, 0.2rem, 0, 0.2rem;
-  }
-
-  .bgTrans .burger {
-    z-index: 10;
-  }
-}
-
 /* BATASSSSSSSSSSSSSSSS GALLERY */
 
 .wrapStagePage {
@@ -446,4 +352,173 @@ li a img {
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (max-width: 576px) {
+  .wrapFirstPage .top .landingPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1.5em;
+  }
+  .mainContainer .wrapFirstPage .top {
+    padding: 1em;
+  }
+
+  .mainContainer .wrapFirstPage .top {
+    height: 50vh;
+  }
+
+  .wrapFirstPage .top .headerMenu {
+    padding: 1em;
+  }
+
+  .wrapFirstPage .top .content {
+    height: fit-content;
+  }
+
+  .top .headerMenu p {
+    font-weight: bold;
+    font-size: 0.6em;
+  }
+
+  .top .headerMenu ul li {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .top .headerMenu ul li a {
+    font-size: 0.6em;
+  }
+
+  .top .landingPage .content {
+    padding: 2em;
+  }
+
+  .top .landingPage .content p.title {
+    font-size: 2.1em;
+    line-height: 1.2em;
+  }
+
+  .top .landingPage .content p.regular {
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+    font-size: 0.8em;
+  }
+
+  .top .landingPage .content a {
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 0.3em 2.5em;
+  }
+
+  .wrapFirstPage .topToMid {
+    height: 50vh;
+  }
+
+  .wrapFirstPage .topToMid p.quote {
+    font-size: 1em;
+  }
+
+  .wrapFirstPage .topToMid p.byWho {
+    font-size: 1em;
+  }
+
+  .wrapFirstPage .midAbout {
+    padding: 1.5em;
+    height: fit-content;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .wrapFirstPage .midAbout .leftText {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 1.5em;
+  }
+
+  .wrapFirstPage .midAbout .leftText p {
+    margin-bottom: 0.5em;
+    line-height: 1.5em;
+    text-align: justify;
+    font-size: 0.9em;
+  }
+
+  .wrapFirstPage .midAbout .rightImage {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .wrapFirstPage .midAbout .rightImage img {
+    width: 80%;
+  }
+
+  .wrapFirstPage .wrapStagePage .top {
+    height: 30vh;
+  }
+
+  .wrapFirstPage .wrapStagePage .top .landingAbout .title p {
+    font-size: 0.6em;
+  }
+
+  .wrapFirstPage .wrapStagePage .mid {
+    padding: 0 1em 1em 1em;
+  }
+
+  .wrapFirstPage .wrapStagePage .mid .gallery {
+    columns: 2 15px;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .wrapFirstPage .wrapStagePage .mid .gallery img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 2px;
+  }
+
+  .wrapFirstPage .midToBot {
+    height: 50vh;
+  }
+
+  .wrapFirstPage .midToBot p.quote {
+    font-size: 1em;
+  }
+
+  .wrapFirstPage .midToBot p.byWho {
+    font-size: 1em;
+  }
+
+  .wrapFirstPage .botFoot {
+    padding: 3em;
+    height: fit-content;
+  }
+
+  .wrapFirstPage .botFoot .wrapAll {
+    flex-direction: column;
+  }
+
+  .wrapFirstPage .botFoot .wrapAll .leftSide {
+    width: 100%;
+  }
+
+  .wrapFirstPage .botFoot .wrapAll .leftSide p {
+    margin-bottom: 0.8em;
+  }
+
+  .wrapFirstPage .botFoot .wrapAll .midSide {
+    width: 100%;
+  }
+
+  .wrapFirstPage .botFoot .wrapAll .midSide p {
+    margin: 1.5em 0 1.5em 0;
+  }
+
+  .wrapFirstPage .botFoot .wrapAll .rightSide {
+    width: 100%;
+  }
+
+  .wrapFirstPage .botFoot .wrapAll .rightSide p {
+    margin-bottom: 0.8em;
+  }
 }
