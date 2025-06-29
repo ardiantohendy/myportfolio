@@ -43,6 +43,7 @@
   width: 100%;
   height: 70vh;
   color: #fff;
+  padding: 3em 3em 0 3em;
 }
 
 .wrapAboutPage .landingAbout {
@@ -59,37 +60,51 @@
   left: 0;
   right: 0;
   top: 40%;
-  font-size: 3em;
+  font-size: 5em;
   font-weight: bold;
   text-align: center;
 }
-.wrapAboutPage .midAbout {
+
+.midAbout {
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: space-between;
-  padding: 5% 10%;
+  padding: 3em 3em 3em 8em;
 }
 
-.wrapAboutPage .midAbout .leftText {
-  width: 45%;
+.midAbout .leftText {
+  width: 48%;
   height: 100%;
-  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.wrapAboutPage .midAbout .leftText p {
+.midAbout .leftText p {
   font-size: 1.1em;
-  line-height: 1.8rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
   font-family: "Times New Roman", Times, serif;
 }
 
-.wrapAboutPage .midAbout .rightImage {
-  width: 48%;
-  height: 100%;
+.midAbout h3 {
+  font-size: 4em;
+  font-weight: 800;
+  margin-bottom: 0.3em;
 }
 
-.wrapAboutPage .midAbout .rightImage img {
+.midAbout .rightImage {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.midAbout .rightImage img {
   width: 80%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .aboutFoot {

@@ -70,7 +70,8 @@ body {
 }
 
 .top .content .mainTitle p {
-  font-size: 4.5em;
+  font-size: 4em;
+  line-height: 1.2em;
   font-weight: bold;
 }
 
@@ -103,52 +104,32 @@ body {
   font-weight: bold;
 }
 
-.midAbout {
+.topToMid {
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: space-between;
-  padding: 3em 3em 3em 8em;
-}
-
-.midAbout .leftText {
-  width: 48%;
-  height: 100%;
-  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  justify-content: center;
+  text-align: center;
 }
 
-.midAbout .leftText p {
-  font-size: 1.5em;
-  line-height: 2rem;
-  margin-bottom: 1rem;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.midAbout h3 {
-  font-size: 3em;
-  font-weight: 800;
-  margin-bottom: 0.5em;
-}
-
-.midAbout .rightImage {
-  width: 48%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.midAbout .rightImage img {
+.topToMid p.quote {
   width: 80%;
-  height: 100%;
-  object-fit: contain;
+  font-size: 2.5em;
+  font-style: italic;
+}
+
+.topToMid p.byWho {
+  margin-top: 2%;
+  font-size: 2.5em;
+  left: 0%;
 }
 
 .mid {
   padding: 3em;
   width: 100%;
-  height: 200vh;
+  height: 320vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -173,7 +154,7 @@ body {
 }
 
 .mid .midMid .img {
-  background: url(images/P1030805.jpg);
+  background: url(images/stage.JPG);
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -189,7 +170,7 @@ body {
 }
 
 .mid .midEnd .img {
-  background: url(images/P1030805.jpg);
+  background: url(images/pexels-jakubzerdzicki-31600580.jpg);
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -215,15 +196,20 @@ body {
   align-items: flex-start;
 }
 
+.mid .midEnd .blokExplan {
+  align-items: start;
+  text-align: start;
+}
+
 .mid .card .blokExplan p.title {
-  font-size: 3.5em;
+  font-size: 3em;
   font-weight: bold;
   position: absolute;
   top: 20%;
 }
 
 .mid .card .blokExplan p.txtExplan {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .mid .card .blokExplan a {
