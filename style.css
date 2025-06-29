@@ -93,7 +93,7 @@ body {
 }
 
 .top .content p.title {
-  font-size: 5em;
+  font-size: 6em;
   text-align: center;
   line-height: 1.1em;
   font-weight: bold;
@@ -415,7 +415,7 @@ li a img {
 }
 
 .midAbout .leftText p {
-  font-size: 1.1em;
+  font-size: 1.3em;
   line-height: 2rem;
   margin-bottom: 1rem;
   font-family: "Times New Roman", Times, serif;
@@ -442,4 +442,8 @@ li a img {
   width: 80%;
   height: 100%;
   object-fit: contain;
+}
+
+html {
+  scroll-behavior: smooth;
 }

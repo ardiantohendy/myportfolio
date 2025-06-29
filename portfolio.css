@@ -98,7 +98,7 @@
 }
 
 .mid .leftBox .firstItem .img {
-  background: url(images/P1040268.jpg);
+  background: url(images/potrait/P1110909.JPG);
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -106,7 +106,7 @@
 }
 
 .mid .leftBox .secondItem .img {
-  background: url(images/P1040360.jpg);
+  background: url(images/merbabu1.JPG);
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -122,7 +122,7 @@
 }
 
 .mid .rightBox .firstItem .img {
-  background: url(images/P1040134.jpg);
+  background: url(images/makmur/P1090790.JPG);
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -130,7 +130,15 @@
 }
 
 .mid .rightBox .secondItem .img {
-  background: url(images/everflower/P1090517.JPG);
+  background: url(images/stage.JPG);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 95%;
+}
+
+.mid .rightBox .thirdItem .img {
+  background: url(images/pexels-jakubzerdzicki-31600580.jpg);
   background-position: center;
   background-size: cover;
   width: 50%;
