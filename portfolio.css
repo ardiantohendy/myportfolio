@@ -80,6 +80,11 @@
   flex-direction: column;
 }
 
+.mid {
+  width: 100%;
+  height: fit-content;
+}
+
 .mid .move {
   width: 100%;
   height: 45vh;
@@ -98,7 +103,7 @@
 }
 
 .mid .leftBox .firstItem .img {
-  background: url(images/potrait/P1110909.JPG);
+  background: url(images/everflower/P1090517.JPG);
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -114,7 +119,7 @@
 }
 
 .mid .leftBox .thirdItem .img {
-  background: url(images/new-2.JPG);
+  background: url(images/P1100680.JPG);
   background-position: center;
   background-size: cover;
   width: 50%;
@@ -146,7 +151,7 @@
 }
 
 .mid .leftBox .move .text {
-  width: 50%;
+  width: 48%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -158,7 +163,7 @@
 }
 
 .mid .rightBox .move .text {
-  width: 50%;
+  width: 48%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -170,14 +175,14 @@
 }
 
 .mid .leftBox .move .text p.titleInCard {
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: bold;
   position: absolute;
   top: 17%;
 }
 
 .mid .rightBox .move .text p.titleInCard {
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: bold;
   position: absolute;
   top: 17%;
@@ -348,7 +353,8 @@ li a img {
   }
 
   .wrapPortfolioPage .mid .leftBox .text {
-    height: 80%;
+    height: 100%;
+    flex-direction: row;
   }
 
   .wrapPortfolioPage .mid .rightBox {
@@ -365,12 +371,12 @@ li a img {
   }
 
   .wrapPortfolioPage .mid .rightBox .text {
-    height: 80%;
-    order: 2;
+    height: 100%;
+    flex-direction: row;
   }
 
   .wrapPortfolioPage .mid .leftBox .show p.titleInCard {
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
 
   .wrapPortfolioPage .mid .leftBox .show p.explan {
@@ -379,11 +385,12 @@ li a img {
 
   .wrapPortfolioPage .mid .leftBox .show a {
     font-size: 0.6em;
-    padding: 0.2em 0.5em;
+    padding: 0.2em 0.4em;
+    border-width: 0.1em;
   }
 
   .wrapPortfolioPage .mid .rightBox .show p.titleInCard {
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
 
   .wrapPortfolioPage .mid .rightBox .show p.explan {
@@ -392,7 +399,8 @@ li a img {
 
   .wrapPortfolioPage .mid .rightBox .show a {
     font-size: 0.6em;
-    padding: 0.2em 0.5em;
+    padding: 0.2em 0.4em;
+    border-width: 0.1em;
   }
 
   .portFoot {
